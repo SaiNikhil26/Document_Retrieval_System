@@ -1,0 +1,6 @@
+Flask
+pymongo
+redis
+requests
+sentence-transformers
+beautifulsoup4
