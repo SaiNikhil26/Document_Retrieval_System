@@ -5,7 +5,6 @@ from db import documents_collection
 
 from uuid import uuid4
 
-from langchain_core.documents import Document
 
 
 def scrape_news():
