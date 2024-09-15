@@ -26,7 +26,6 @@ The system is built using:
 
 - **Flask** for the web server.
 - **MongoDB** for document storage.
-- **Redis** for rate-limiting and caching.
 - **Docker** to containerize the application.
 
 ---
@@ -105,6 +104,7 @@ The system is built using:
 
 
 This `README.md` file includes installation steps, Docker setup, endpoint explanations, a section for caching methods, and rate-limiting strategies.
+For more information refer to this document [Observation Document](Observation_Document.pdf)
 Thank you
 
 
