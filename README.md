@@ -1,6 +1,6 @@
-# Document Retrieval System - Flask API
+# Document Retrieval System
 
-This is a document retrieval system built using Flask, MongoDB, Redis, and Docker. The system allows users to search documents using a custom retrieval-augmented generation (RAG) model and rate-limiting with caching mechanisms. It also scrapes news articles from The Guardian in the background and stores them in MongoDB.
+This is a document retrieval system built using Flask, MongoDB, and Docker. The system allows users to search documents using a custom retrieval-augmented generation (RAG) model and rate-limiting with caching mechanisms. It also scrapes news articles from The Guardian in the background and stores them in MongoDB.
 
 ## Table of Contents
 
