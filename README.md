@@ -10,7 +10,6 @@ This is a document retrieval system built using Flask, MongoDB, Redis, and Docke
 - [Configuration](#configuration)
 - [Running the Project](#running-the-project)
 - [API Endpoints](#api-endpoints)
-- [Explanation of modules used](#explanation)
 
 ---
 
@@ -103,16 +102,6 @@ The system is built using:
 2. `\health` Endpoint
    - **Description**: Check if the API is running
    - **Output**: JSON output alongw ith status
-
-## Explanation
-  This project uses Redis as the caching mechanism to improve the performance of a document retrieval system. Caching is essential in reducing the load on the database and improving the overall speed of repeated queries. This section explains why Redis was chosen and the caching method implemented.
-  **In-Memory Storage for High Performance** : Redis stores data in memory, which allows for incredibly fast data access. This makes it an ideal choice for caching, as results can be retrieved much faster than querying a database. Since search results in our document retrieval system may be requested multiple times, the speed advantage of Redis significantly reduces the response time for repeated queries.
-  ### Cache Key Design
-  Cache keys are generated based on the parameters of the search query, ensuring that each unique search is cached separately. This includes:
-    - `user_id`: The ID of the user making the request.
-    - `query_text`: The search query submitted by the user.
-    - `top_k`: The number of top results requested.
-    - `threshold`: The threshold for filtering search results.
 
 
 This `README.md` file includes installation steps, Docker setup, endpoint explanations, a section for caching methods, and rate-limiting strategies.
