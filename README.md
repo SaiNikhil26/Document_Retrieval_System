@@ -86,9 +86,8 @@ The system is built using:
 2. **Dockerize the application**
 
    ````bash
-
-   ```docker build -t document-retrieval-app -f Dockerfile.app .
-    docker run -p 5000:5000 document-retrieval-app
+   docker build -t document-retrieval-app -f Dockerfile.app .
+   docker run -p 5000:5000 document-retrieval-app
    ````
 
 ## API Endpoints
